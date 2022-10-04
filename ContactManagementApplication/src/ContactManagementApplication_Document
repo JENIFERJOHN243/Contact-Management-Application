@@ -1,0 +1,43 @@
+ ****CONTACT MANAGEMENT APPLICATION****
+
+Controller 
+1) ContactManagementApplication (Main Class)
+2) UserController - className
+    * addContact()
+    * updateContact()
+    * deleteContact()
+    * searchContact()
+    * viewAllContact()
+
+Model - ClassName
+1) UserDetails
+  * firstName
+  * lastName
+  * mobileNumber
+  * emailId
+
+DAO 
+1)ContactManagementDAO - className
+  * addUserDetails
+  * updateUserDetails
+  * deleteUserDetails
+  * searchUserDetails
+  * viewUserDetails
+
+Validation
+1)Validation - className
+  * mobileNumberValidation
+  * emailIdValidation
+
+Database 
+1)user_details - TableName
+  * first_name
+  * last_name
+  * user_id (Primary Key)
+  * mob_no
+  * mail_id
+
+
+
+
+
